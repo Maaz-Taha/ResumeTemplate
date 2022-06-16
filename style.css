@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    background-color: #d8e1ed !important;
+    box-sizing: border-box;
+}
+h1, h2, h3, h4, h5, h6{
+    letter-spacing: 0.2rem;
+}
+.container {
+    /* background-color: aquamarine; */
+    margin-top: 20px;
+    width: 100%;
+    height: 100%;
+}
+
+.lefttSide {
+    background-color: #ffff;
+    width: 25%;
+    height: auto;
+    margin-right: 1rem;
+}
+
+.rightSide {
+    /* background-color: #ffff; */
+    width: 75%;
+    height: auto;
+}
+
+.mypic {
+    background-color: rgb(77, 139, 141);
+    text-align: center;
+    margin: auto;
+}
+
+.mypic img {
+    width: 50%;
+    height: 50%;
+    border-radius: 50%;
+    /* margin: 0 auto   ; */
+}
+
+.mypic h4 {
+    color: rgba(0, 0, 0, 0.7)
+}
+.mypic h4.myTitle{
+    font-weight: 400;
+}
+/* contact info styling */
+.contantInfo h5{
+    letter-spacing: 0.2rem;
+}
+.contantInfo div{
+    width: 90%;
+    margin: 3% auto;
+}
+.contantInfo div span i {
+    display: inline-block;
+    width: 10%;
+    text-align: center;
+    color: rgb(77, 139, 141);
+    
+}
+.eduInfo h5{
+    letter-spacing: 0.2rem;
+}
+.eduInfo div{
+    width: 90%;
+    margin: 2% auto;
+    line-height: 1.5rem;
+}
+span.edutitle {
+    display: block;
+    font-weight: bold;
+    color: rgb(77, 139, 141);
+}
+.langName{
+    color: rgb(77, 139, 141);
+    font-weight: bold;
+    margin: 3% 0;
+    /* margin: 3%; */
+}
+.langdiv{
+    width:90%;
+    margin: 2% auto;
+}
+.progress-bar{
+    height: 10px;
+    font-size: 12px !important;
+}
+.progress div{
+    background-color: rgb(77, 139, 141);
+    border-radius: 10px;
+    height: 15px;
+    text-align: left;
+    padding:.5rem;
+}
+
+/* rightside styling start */
+
+.rightSidediv1{
+    background-color: #ffff;
+    height: auto;
+    margin: 0;
+}
+.workTitle{
+    letter-spacing: .2rem;
+    margin: 3% 1%;
+    color: rgb(77, 139, 141);
+
+}
+.posttitle{
+    margin: 1%;
+    color: rgba(0, 0, 0, .5);
+}
+.rightSidediv1 div{
+    width: 80%;
+    margin: 2%;
+}
+.rightSidediv1 div span{
+    color: rgb(77, 139, 141);
+    display: inline-block;
+    margin: .5%;
+}
+.rightSidediv2 {
+    background-color: #ffff;
+}
+.rightSidediv2 h2{
+    letter-spacing: .2rem;
+    margin: 1.5%;
+    color: rgb(77, 139, 141);
+}
+.skillName{
+    font-weight: bold;
+    color: rgba(0, 0, 0, .5);
+    margin: 2% 1%;
+
+}
+/* ..rightSidediv2 div.progress{
+    height: 100%;
+    font-size: 102px;
+    padding: 10%;
+} */
