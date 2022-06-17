@@ -14,7 +14,10 @@ h1, h2, h3, h4, h5, h6{
     /* background-color: aquamarine; */
     margin-top: 20px;
     width: 100%;
-    height: 100%;
+    /* height: 100%;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    /* flex-wrap: wrap; */ 
 }
 
 .lefttSide {
@@ -22,14 +25,14 @@ h1, h2, h3, h4, h5, h6{
     width: 25%;
     height: auto;
     margin-right: 1rem;
+    margin-bottom: 1rem;
+    /* display: inline-block; */
 }
-
 .rightSide {
     /* background-color: #ffff; */
     width: 75%;
     height: auto;
 }
-
 .mypic {
     background-color: rgb(77, 139, 141);
     text-align: center;
@@ -105,10 +108,11 @@ span.edutitle {
     background-color: #ffff;
     height: auto;
     margin: 0;
+    display: inline-block;
 }
 .workTitle{
     letter-spacing: .2rem;
-    margin: 3% 1%;
+    margin: 1% 1%;
     color: rgb(77, 139, 141);
 
 }
@@ -136,7 +140,7 @@ span.edutitle {
 .skillName{
     font-weight: bold;
     color: rgba(0, 0, 0, .5);
-    margin: 2% 1%;
+    margin: 1% 1%;
 
 }
 /* ..rightSidediv2 div.progress{
@@ -144,3 +148,16 @@ span.edutitle {
     font-size: 102px;
     padding: 10%;
 } */
+
+@media only screen and (max-width:900px) and (min-width:200px) {
+    .container{
+        flex-flow: column wrap;
+    }
+    .lefttSide{
+        width: 100%;
+
+    }
+    .rightSide{
+        width: 100%;
+    }
+}
