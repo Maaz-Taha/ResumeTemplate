@@ -151,7 +151,7 @@ span.edutitle {
 
 @media only screen and (max-width:900px) and (min-width:200px) {
     .container{
-        flex-flow: column wrap;
+        flex-flow: column wrap;   
     }
     .lefttSide{
         width: 100%;
